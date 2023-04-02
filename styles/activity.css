@@ -1,0 +1,240 @@
+
+body{
+    font-family: 'Source Serif Pro', serif;;
+}
+   
+/* left side bar */
+.side_nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F6F7F8;
+    overflow-x: hidden;
+    transition: 0.5s;
+   padding-top: 60px;
+}
+
+.side_nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #34393D;
+    display: block;
+    transition: 0.3s;
+}
+
+.side_nav a:hover {
+    color:#3070F0;
+    background-color: #DEE7F7;
+}
+
+.side_nav .close_btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right:5px;
+}
+.top_div{
+    padding: 5px;
+}
+
+.menu_bar_logo{
+    height: 20px ;
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+     /* right_side for logout manu */
+.right_side_nav {
+    height: 300px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #F6F7F8;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.right_side_nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #34393D;
+    display: block;
+    transition: 0.3s;
+}
+
+.right_side_nav .right_close_btn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    top:0px;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.right_side_nav a:hover{
+    color:#3070F0;
+    background-color: #DEE7F7;
+}
+
+.log_out_logo{
+    height: 40px;
+    width: 40px;
+    margin:10px 0px 10px 20px;
+  }
+    
+.log_out_btn{
+    border: none;
+     text-decoration: none;
+    text-align: left;
+    padding-left: 10px;
+    width: 170px;
+ }
+
+ 
+ 
+.time_div{ 
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+/* <menu bar style end there */
+/* 
+activity page style  */
+
+
+.top_my_time{
+    height: 60px;
+     width: 1100px;
+    float: right;
+    /* background-color: red; */
+    /* margin-right: 400px; */
+    font-size: 30px;
+}
+
+.City{
+    height: 60px;
+    width: 250px;
+    margin-top: 0px;
+    font-size: 25px;
+    color: #A2A8B4;
+    text-decoration: node;
+    border: none;
+
+}
+.time_line{
+    height: 20px;
+    width: auto;
+    background-color: #D0D6DB;
+    margin: 0 20px;
+}
+.all_div>div{
+    height: 10px;
+    width: 4px ;
+    border: 2px solid #AFBAC4;;
+  margin:  0px 95px 0px 17px;
+}
+.all_div>div>div{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+    color: black;
+   
+}
+.top_logo{
+    height: 40px ;
+    width: 40px;
+    float: left;
+    margin: 10px;
+}
+
+.hours{
+    width: 90%;
+    margin: 5%;
+    height: 430px;
+    border: #EAECEF solid 1px;
+    border-radius: 10px;
+}
+
+.total_blance{
+    float: left;
+    height: 30px;
+    padding: 20px;
+}
+.text_align_right{
+   text-align: right;
+}
+
+
+.time_line{
+height: 20px;
+width: auto;
+background-color: #D0D6DB;
+margin: 0 20px;
+}
+
+.all_div>div{
+height: 10px;
+width: 5px ;
+border: 1px solid #AFBAC4;
+margin: 0px 80px 0px 17px;
+float: left;
+}
+
+.all_div>div>div{
+text-align: center;
+padding-top: 10px;
+}
+
+.box{
+height: 200px;
+margin-top: 50px;
+padding-left: 18px;
+}
+
+.small_box{
+height: 80px;
+width: 40px;
+border-radius: 5px;
+border: 1px solid #AFBAC4;
+float: left;
+font-size: 40px;
+margin: 3px;
+}
+
+.small_box>button:hover{
+        background-color: #677B8F;
+}
+
+.camera_div{
+    height: 40px;
+    width: auto;
+    background-color:  #DEE7F7;
+    padding: 30px 20px 30px 50px;
+}
+
+.camera_logo{
+    height: 40px;
+    width: 40px;
+    /* display: flex;
+    flex-direction: center; */
+}
+
+.min_box{
+height: 180px;
+width: 145px;
+padding: 10px;
+float: left;
+border: 1px solid #AFBAC4;
+font-size: 14px;
+}
