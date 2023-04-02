@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f612f4d575.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <title>Dash board</title>
+    <link rel="stylesheet" href="menu_bar.css">
+    <style>
+        
+
+        </style>
+    </head>
+    <body>
+    
+         <!-- Left side menu bar -->
+    <div id="my_Side_nav" class="side_nav">
+            <div class="top_div">
+                <img src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
+            </div>
+            <a href="javascript:void(0)" class="close_btn" onclick="closeNav()">&times;</a>
+
+            <!-- All Menu contant  -->
+            <a href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\time.html"> 
+                <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/3884/3884295.svg" alt="Time_logo">Time
+            </a>
+            <a href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\2nd undermain.html">
+                <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/839/839860.svg" alt="Task_logo"> Task
+            </a>
+
+            <button class="dropdown1">Analyze
+                <i class="fas fa-angle-down"></i>
+            </button>
+
+            <div class="dropdown-container">
+                <a href="#">
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/3094/3094929.svg" alt="Reports_logo"> Reports
+               </a>
+               <a href="">
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/3113/3113504.svg" alt="Activity_logo">Activity
+                </a>
+            </div>
+
+            <button class="dropdown1">Manage
+                <i class="fas fa-angle-down"></i>
+            </button>
+
+            <div class="dropdown-container">
+                <a href="">
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/762/762631.svg" alt="Projects_logo">Projects
+                </a>
+                <a href="" >
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/premium-icon/icons/svg/2392/2392025.svg" alt="Clients_logo">Clients
+                </a>
+                <a href="" >
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/premium-icon/icons/svg/2392/2392025.svg" alt="Clients_logo">Invoices
+                </a>
+                <a href="" >
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/premium-icon/icons/svg/2392/2392025.svg" alt="Clients_logo">Time Off
+                </a>
+            </div>
+
+            <button class="dropdown1">Manage
+                <i class="fas fa-angle-down"></i>
+            </button>
+
+            <div class="dropdown-container">
+                <a href="">
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/3964/3964443.svg" alt="Settimg_logo">Settings
+                </a>
+                <a href="">
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/1935/1935063.svg" alt="Member_logo">Members
+                </a>
+                <a href="">
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/1534/1534952.svg" alt="Teams">Teams
+                </a>
+                <a href="">
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/876/876770.svg" alt="time_logo">Tags
+                </a>
+                <a href="">
+                    <img class="menu_bar_logo" src="https://www.flaticon.com/svg/static/icons/svg/876/876770.svg" alt="time_logo">Intergrations
+                </a>
+            </div>
+            <a href="">
+                <img class="menu_bar_logo" src="data:image/png;base64,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" alt="Help">Help
+            </a>
+
+            <div class="nav__logout__container">
+                <div class="nav__logout" onclick="openForm()">
+                    <div><img class="img" src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg"/></div>
+                    <div>
+                        <div>My Company</div>
+                        <div>Your Name</div>
+                    </div>
+                    <div><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+
+            <!-- ---------PopUp form-----------------     -->
+            <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                    <div>
+                        <p>My Profile</p>
+                    </div>
+                    <div>
+                        <p>WorkSpace</p>
+                        <p>My Company</p>
+                    </div>
+                    <div>
+                        <p>Manage Workspace</p>
+                    </div>
+                    <div>
+                        <a href="login_page.html">Logout <i class="fas fa-sign-out-alt"></i></a>
+                    </div>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+              </div>
+
+
+    </div>
+    <!-- open left side menu bar -->
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
+    <div class="navbar" onclick="openNav()"><i class="fas fa-bars fa-2x"></i></div>
+    
+
+     <!-- right side manu_bar for log out  -->
+    <!-- <div id="right_Side_nav" class="right_side_nav"> -->
+
+            <!-- for close buttom -->
+            <!-- <a href="javascript:void(0)" class="right_close_btn" onclick="right_closeNav()">&times;</a>
+            <div class="right_top_div">
+                <img class="log_out_logo" src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg" alt="">
+            </div> -->
+             
+            <!-- contant of log out menu  -->
+            <!-- <button class="log_out_btn"> <a href="https://www.masaischool.com">Profile </a></button>
+            <button class="log_out_btn"> <a href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\under_maintaince.html">Profile </a></button>
+            <button class="log_out_btn"> <a href="https://www.masaischool.com"> Masai </a></button>
+            <button class="log_out_btn"> <a href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\under_maintaince.html"> Manage WorkSpace </a></button>
+            <button class="log_out_btn"> <a href="C:\Users\mdarman\Desktop\masai\ti_066-amanullah\unit-2\evaluation\Project_2\Unit2-Oxygen\login_page.html"> Log Out </a></button>   
+    </div> -->
+
+     <!-- open right manu  -->
+    <!-- <span style="font-size:30px;cursor:pointer ;float: right;" onclick="right_openNav()">
+      for  right manu  -->
+    <!-- <span style="font-size:30px;cursor:pointer ;float: right;" onclick="right_openNav()">
+         <img class="log_out_logo" src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg" alt="profile"> 
+    </span> --> 
+      
+
+      <!-- your can add here your own page is here -->
+    <div class="main_div_home"> 
+        <div class="time_div">
+            write here your code
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("my_Side_nav").style.width = "250px";
+            document.getElementById("time_div").style.marginRight = "250px"
+        }
+    
+        function closeNav() {
+            document.getElementById("my_Side_nav").style.width = "0";
+        }
+
+        // function right_openNav() {
+        //     document.getElementById("right_Side_nav").style.width = "200px";
+        // }
+        // function right_closeNav() {
+        //     document.getElementById("right_Side_nav").style.width = "0";
+        // }
+
+
+// --------------Sidebar Dropdown menu--------------
+
+        var dropdown = document.getElementsByClassName("dropdown1");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+
+        // ----------------Popup Form----------------
+
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+    </script>
+       
+    </body>
+    </html> 
+    

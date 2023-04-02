@@ -1,0 +1,325 @@
+*{
+    font-family: 'Source Serif Pro', serif;;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navbar{
+    width: 3%;
+    height: 40px;
+    border: 1px solid rgb(199, 199, 199);
+    text-align: center;
+    box-shadow:  -9px 9px 18px #c1ccd3,
+                  9px -9px 18px #fbffff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.navbar>i{
+    height: 90%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.dropdown1{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    border: none;
+    padding: 5%;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    border-top: 1px solid rgb(207, 207, 207);
+    padding-left:27%;
+}
+
+
+.dropdown-container{
+    display: none;
+    background-color: #F6F7F8;
+    padding-left: 8px;
+}
+
+.nav__logout__container{
+    width: 99%;
+    height: 85px;
+    margin-top: 40%;
+    border: 1px solid #E2E7EB;
+    border-right: none;
+    cursor: pointer;
+}
+
+.nav__logout{
+    width: 100%;
+    height: 65px;
+    margin-top: 3.5%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* position: absolute; */
+    /* bottom: 0;
+    list-style-type: none; */
+    /* list-style-type: none; */
+    /* position:fixed; */
+    /* bottom:auto;
+    left:0;
+    padding:10px 0;
+    display:block; */
+}
+
+.nav__logout:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.nav__logout>div:nth-child(1){
+    width: 22%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 7%;
+    margin-left: 2%;
+    /* border: 1px solid black; */
+}
+
+.nav__logout>div:nth-child(2){
+    width: 60%;
+    height: 60%;
+    margin-top: 7%;
+    margin-left: 2%;
+    /* border: 1px solid black; */
+}
+
+.nav__logout>div:nth-child(3){
+    width: 5%;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-top: 12.5%;
+}
+
+.nav__logout>div:nth-child(2)>div:nth-child(1), .nav__logout>div:nth-child(2)>div:nth-child(2){
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+
+/* left side bar */
+
+.main_div_home{
+    width: 100%;
+    height: auto;
+}
+
+.side_nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #F6F7F8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+}
+
+.side_nav::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.side_nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.side_nav a:hover {
+    color:#3070F0;
+    background-color: #DEE7F7;
+}
+
+.side_nav .close_btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right:5px;
+}
+.top_div{
+    padding: 5px;
+}
+
+.menu_bar_logo{
+    height: 30px ;
+    width: 30px;
+    margin-right: 10px;
+    
+}
+
+
+
+     /* right_side for logout manu */
+/* .right_side_nav {
+    height: 300px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #F6F7F8;
+    /* overflow-y: hidden; */
+    /* overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px; */
+/* }
+.right_side_nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #34393D;
+    display: block;
+    transition: 0.3s;
+} */
+/* 
+.right_side_nav .right_close_btn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    top:0px;
+    font-size: 50px;
+    border-radius: 50px;
+}
+.right_side_nav a:hover{
+    color:#3070F0;
+    background-color: #DEE7F7;
+}
+.log_out_logo{
+    height: 40px;
+    width: 40px;
+    margin:10px 0px 10px 20px;
+  }
+    
+.log_out_btn{
+    border: none;
+     text-decoration: none;
+    text-align: left;
+    padding-left: 10px;
+    width: 170px;
+ }  */
+
+ 
+ 
+.time_div{
+   
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+/* 
+-------------PopUp--------------- */
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    width: 260px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: -9;
+    margin-right: 60.7%;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  .form-container>div:nth-child(1), .form-container>div:nth-child(2), .form-container>div:nth-child(3)
+  ,.form-container>div:nth-child(4){
+      width: 90%;
+      height: 40px;
+      margin-left: 2.5%;
+      border-bottom: 1px solid grey;
+  }
+
+  .form-container>div:nth-child(2){
+      height: 65px;
+  }
+
+  .form-container>div:nth-child(2)>p:nth-child(1){
+    color: grey;
+    font-size: 12px;
+  }
+
+  .form-container>div:nth-child(4)>a{
+      font-size: 16px;
+      cursor: pointer;
+  }
