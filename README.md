@@ -14,4 +14,4 @@
     `Netlify`
 
 ## Deployed link:
-- [https://64df6369cb5135051f56d0c3--relaxed-baklava-48723c.netlify.app/)
+- [https://deft-fairy-a858eb.netlify.app/)
